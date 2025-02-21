@@ -79,7 +79,7 @@ type
 (*    ValReal         = FPImage.ValReal;
     {$IFDEF CPU64}     //WORD = 2 bytes = 4 nybbles = 16 bits    for 32bits
     BGRAPtrInt      = FPImage.BGRAPtrInt;
-    BGRAPtrUInt     = FPImage.BGRAPtrUInt;  //QWORD = 2 DWORDs = 4 WORDs = â€¦.. = 64 bits       for 32bits
+    BGRAPtrUInt     = FPImage.BGRAPtrUInt;  //QWORD = 2 DWORDs = 4 WORDs = ….. = 64 bits       for 32bits
     {$ELSE}               //BGRADWord = 2 WORDs = 4 bytes = 8 nybbles = 32 bits   for 32bits
     BGRAPtrInt      = FPImage.BGRAPtrInt;
     BGRAPtrUInt     = FPImage.BGRAPtrUInt;
