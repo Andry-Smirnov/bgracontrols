@@ -73,6 +73,7 @@ backup/
 backup
 lib/
 lib
+bin
 debug
 
 *.bak
@@ -93,5 +94,6 @@ test/test_bccombobox/test_bccombobox
 
 # MacOS X
 .DS_Store
+use/*/
 
 *.lrt
