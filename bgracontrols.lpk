@@ -13,7 +13,6 @@
       <Parsing>
         <SyntaxOptions>
           <SyntaxMode Value="Delphi"/>
-          <UseAnsiStrings Value="False"/>
         </SyntaxOptions>
       </Parsing>
       <CodeGeneration>
