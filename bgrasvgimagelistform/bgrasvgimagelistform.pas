@@ -64,7 +64,7 @@ type
     procedure DoShowEditor;
   public
     procedure ExecuteVerb(Index: integer); override;
-    function GetVerb({%H-}Index: integer): string; override;
+    function GetVerb({%H-}Index: integer): string; //override;
     function GetVerbCount: integer; override;
   end;
 

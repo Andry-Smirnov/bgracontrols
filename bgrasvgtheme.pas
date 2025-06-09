@@ -80,13 +80,13 @@ type
     function PreferredButtonHeight(const hasGlyph: boolean): Integer; override;
     function PreferredButtonWidth(const hasGlyph: boolean): Integer; override;
     procedure DrawButton(Caption: string; State: TBGRAThemeButtonState;
-      Focused: boolean; ARect: TRect; ASurface: TBGRAThemeSurface; AImageIndex: Integer = -1; AImageList: TBGRASVGImageList = nil); override;
+      Focused: boolean; ARect: TRect; ASurface: TBGRAThemeSurface; AImageIndex: Integer = -1; AImageList: TBGRASVGImageList = nil); //override;
     procedure DrawRadioButton(Caption: string; State: TBGRAThemeButtonState;
     {%H-}Focused: boolean; Checked: boolean; ARect: TRect;
-      ASurface: TBGRAThemeSurface); override;
+      ASurface: TBGRAThemeSurface); //override;
     procedure DrawCheckBox(Caption: string; State: TBGRAThemeButtonState;
     {%H-}Focused: boolean; Checked: boolean; ARect: TRect;
-      ASurface: TBGRAThemeSurface); override;
+      ASurface: TBGRAThemeSurface); //override;
   public
     // XML File
     procedure SaveToFile(AFileName: string);
